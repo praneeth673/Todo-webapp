@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/653dfc0ad4.js" crossorigin="anonymous"></script>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Todo app</title>
+	<link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container-fluid main" id ="todo">
+        <div class="row inside" id="taskslist">
+            <div class="col-lg-6 tasks" id="tasks">
+                    <h1 id ="heading">TASK LIST</h1>
+                    <br>
+                    <P>add tasks to your list by typing to the right and pressing enter.you may then view the pending tasks below</P>
+                    <br>
+                    <ul id="inputs">
+                        
+                    </ul>
+            </div>
+            <div class="col-lg-6" id="enter">
+                    <form id="forms" onSubmit="return false;">
+                        <input type="text" class="newinput" id="input" placeholder="I need to.." >
+                    </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
